@@ -1,0 +1,1036 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+p {
+    font-family:"Inter", sans-serif;
+    
+}
+body{
+    background-image: url(../images/background.jpg);
+}
+header{
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding-top: 1.563rem;
+    width: 25rem;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Galada", cursive;
+    font-size: 1.25rem;
+    
+}
+.logo{ 
+    padding-top: 0.938rem;
+}
+#banner-slogan {
+    padding-top: 4.375rem;
+}
+#banner-slogan .slider {
+    width: 80%;
+    height: 28.125rem;
+    margin: 0.625rem auto 0;
+    overflow: hidden;
+    border-radius: 1.875rem;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5);
+}
+#banner-slogan .slider ul{
+    display: flex;
+    width: 500%;
+    
+    animation: slide 15s infinite alternate ease-in-out;
+}
+#banner-slogan .slider li{
+    list-style: none;
+    width: 100%;   
+}
+#banner-slogan .slider img{
+    max-height: 100%;
+    max-width: 100%;
+}
+#banner-slogan .slogan {
+    color: red;
+    text-align: center;
+    margin-top: 0.625rem;
+    
+}
+#banner-slogan .slogan .primera-tipografia{
+    font-size: 3.5rem;
+    font-family: "Cookie", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+#banner-slogan .slogan .segunda-tipografia {
+    padding-left: 10px;
+    font-size: 3rem;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#banner-slogan .firma-tinplay{
+    margin-left: 62.5rem ;
+}
+#productos{
+    width: 100%;
+    height: 30rem;
+    padding-top: 12.5rem;
+    padding-bottom: 25rem;
+    /*background-image: url(../images/fondo-productos.svg);*/
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+}
+#productos h1 {
+    color: white;
+    margin-left: 9.375rem;
+    font-size: 2.188rem;
+    font-family: "Galada", cursive;
+
+}
+
+#productos p {
+    color: white;
+    margin-left: 9.375rem;
+    font-size: 1.125rem;
+    max-width: 50rem;
+
+}
+
+.contenedor-products{
+    margin-top: 2.5rem;
+    padding-bottom: 12.5rem;
+    margin-left: 9.375rem ;
+    margin-right: 9.375rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.foto-producto:hover{
+    width: 110%;
+    height: 110%;
+}
+ h3 {
+    font-family: "Cookie", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0.938rem;
+    padding-bottom: 15px;
+}
+.contenedor-products .baquettin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .bugattin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .wagon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .triciclo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .surtidor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products .peluqueria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-products div {
+    height: 16.375rem;
+    width: 22.938rem;
+    background-color: white;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.3);
+    margin-top: 0.938rem;
+    border-radius: 1.563rem;
+    display: flex;
+    justify-content: center
+}
+.contenedor-products div .edades {
+    background-color: red;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    display:flex ;
+    align-items: center;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    z-index: 99;
+}
+.contenedor-products div .edades h6 {
+    font-family: "Inter", sans-serif;
+}
+.contenedor-products div .hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16.375rem;
+    width: 22.938rem;
+    position: absolute;
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0, 0.7) ;
+    opacity: 0;
+    
+
+}
+.contenedor-products div .hover:hover {
+    opacity: 100;
+}
+ 
+.contenedor-products .ver-mas {
+    position: absolute;
+    height: 3.125rem;
+    background-color: #686767;
+    display: flex;
+    align-items: center ;
+    margin-top: 14.188rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.contenedor-products .ver-mas h4 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+}
+
+#como-comprar{
+    height: 80vh;
+}
+#como-comprar h1{
+    margin-left: 9.375rem;
+    font-family: inter;
+    padding-top: 1.875;
+    font-size: 2.188rem;
+    font-family: "Galada", cursive;
+    color: #484848;
+
+}
+#como-comprar p{
+    margin-left: 9.375rem;
+    font-family: inter;
+    padding-top: 1.25rem;
+    font-size: 1.125rem;
+    max-width: 62.5rem;
+    color: #484848;
+}
+#como-comprar .compras{
+    margin-top: 3.125rem;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+#como-comprar .mercado-libre{
+    background-color: white;
+    border: solid 0.25rem #F7E000;
+    width: 23.75rem;
+    height: 3.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .mercado-libre img {
+    padding-left: 1.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    max-width: 100%;
+}
+#como-comprar .mercado-libre h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 4.375rem;
+    font-size: 1.25rem;
+    color: #F7E000;
+}
+#como-comprar .tienda-nube{
+    background-color: white;
+    border: solid 0.25rem #2B3152;
+    width: 23.75rem;
+    height: 3.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .tienda-nube img {
+    padding-left: 1.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    max-width: 100%;
+}
+#como-comprar .tienda-nube h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 4.375rem;
+    font-size: 1.25rem;
+    color: #2B3152;
+    
+}
+#como-comprar .whatsapp{
+    background-color: white;
+    border: solid 0.25rem #00C307;
+    width: 23.75rem;
+    height: 3.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+#como-comprar .whatsapp img {
+    padding-left: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    max-width: 100%;
+}
+#como-comprar .whatsapp h4 {
+    font-family: "Inter", sans-serif;
+    padding-left: 5.625rem;
+    font-size: 1.25rem;
+    color: #00C307;
+
+}
+#como-comprar .titulo-slider {
+    font-family: "Inter", sans-serif;
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+    color: #484848;
+}
+#como-comprar .slider-infinito{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1.25rem;
+    margin-bottom: 1.563rem;
+    margin-left: 9.375rem;
+}
+#como-comprar .slider-infinito .slider-track{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: slider-infinito scroll 40s linear infinite ;
+    width: calc(9.375rem * 16);
+    background-color: white;
+}
+#como-comprar .slider-infinito .slide{
+    width: 9.375rem;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+}
+#como-comprar .slider-infinito .slide img {
+    width: 100%;
+    max-width: 100%;
+}
+#sobre-nosotros{
+    height: 45vh;
+}
+#sobre-nosotros h1{
+    margin-left: 9.375rem;
+    font-family: inter;
+    
+    font-size: 2.188rem;
+    font-family: "Galada", cursive;
+    color: #484848;
+
+}
+#sobre-nosotros p {
+    max-width: 51.875rem;
+    margin-left: 9.375rem;
+    font-size: 1rem;
+}
+
+footer{
+    height: 70vh;
+    background-image: url(../images/Maskgroup.svg);
+    
+}
+footer .contenedor-footer{
+    padding-top: 12.5rem;
+    margin-left: 9.375rem;
+    margin-right: 9.375rem;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    height: 9.375rem;
+}
+footer .menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 9.375rem;
+}
+footer .menu-footer a{
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    padding-top: 0.625rem;
+}
+footer .contenedor-footer .contacto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.25rem;
+}
+footer .contenedor-footer .contacto a {
+    font-family: "Inter", sans-serif;
+    color: white; 
+    padding-left: 0.625rem;
+    font-size: 1.125rem;
+}
+footer .marca-registrada {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.938rem;
+    margin-left: 9.375rem;
+    margin-right: 9.375rem;
+}
+footer .marca-registrada h4{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 0.875rem;
+}
+footer .marca-registrada a {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+}
+footer .marca-registrada .telefono{
+    display: flex;
+    align-items: center;
+}
+footer .marca-registrada .telefono a {
+    padding-left: 0.625rem;
+    font-size: 1rem;
+}
+footer .marca-registrada .mail{
+    display: flex;
+    align-items: center;
+}
+footer .marca-registrada .mail a {
+    padding-left: 0.625rem;
+    font-size: 1rem;
+}
+footer .redes{
+    display: flex;
+    width: 12.5rem;
+    justify-content: space-between;
+}
+footer .redes img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: 1.25rem;
+    max-width: 100%;
+}
+footer .linea {
+    width: 80%;
+    height: 0.063rem;
+    background-color: white;
+    margin-left: 9.375rem;
+    margin-right: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+@keyframes slide {
+    0%  {margin-left: 0%;}
+    15% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75%{margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 8));
+        transform: translateX(calc(-200px * 8))
+    }
+
+}
+
+/*seccion de producto*/
+.flecha{
+    margin-top: 6.25rem;
+}
+.volver-home {
+    margin-left: 9.375rem;
+}
+#producto {
+    display: flex;
+}
+
+#producto .producto-individual {
+    background-color: #D9D9D9;
+    margin-left: 9.375rem ;
+    width: 36.25rem;
+    height: 23.75rem;
+    margin-top: 1.875rem;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#producto .producto-individual img{
+    width: 37.5rem;
+    height: 25rem;
+    max-width: 100%;
+}
+#producto .vistas-producto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.563rem;
+    margin-bottom: 1.563rem;
+    margin-left: 9.375rem;
+    border-radius: 1.25rem;
+    width: 36.25rem;
+    overflow: hidden;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5) ;
+    height: 5.938rem;
+}
+#producto .vistas-producto img {
+    width: 9.063rem;
+    cursor: pointer;
+    max-width: 100%;
+}
+#producto .descripcion h2 {
+    margin-top: 3.125rem;
+    color: #484848;
+    font-family: "Galada", cursive;
+    margin-left: 3.125rem;
+}
+#producto .descripcion p {
+    max-width: 37.5rem;
+    margin-left: 3.125rem;
+}
+#producto .descripcion .colores-disponibles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20.625rem;
+    margin-left: 3.125rem;
+    margin-top: 1.875rem;
+}
+#producto .descripcion .colores-disponibles h4 {
+    font-family:"Inter", sans-serif;
+    color: #484848;
+}
+#producto .descripcion .colores-disponibles .colores {
+    display: flex;
+    justify-content: space-between;
+    width: 8.75rem;
+}
+#producto .descripcion .colores-disponibles .colores .rojo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: red;
+    border-radius: 6.25rem;
+    
+}
+#producto .descripcion .colores-disponibles .colores .negro {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:black;
+    border-radius: 6.25rem;
+}
+#producto .descripcion .colores-disponibles .colores .blanco {
+    width: 2.438rem;
+    height: 2.438rem;
+    background-color: white;
+    border: solid 0.063rem black;
+    border-radius: 6.25rem;
+}
+#producto .descripcion .botones-compras{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3.125rem;
+    margin-top: 1.875rem;
+    width: 31.25rem;
+}
+#producto .descripcion .botones-compras .mercadolibre {
+    border: #F7E000 solid 0.188rem;
+    background-color: white;
+    width: 9.375rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .mercadolibre img{
+    width: 3.125rem;
+    height: 3.125rem;
+    max-width: 100%;
+}
+#producto .descripcion .botones-compras .tiendanube {
+    border: solid 0.188rem #2B3152;
+    background-color: white;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .tiendanube img {
+    width: 3.125rem;
+    height: 3.125rem;
+    max-width: 100%;
+}
+#producto .descripcion .botones-compras .wpp {
+    border: solid 0.188rem #00C307;
+    background-color: white;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#producto .descripcion .botones-compras .wpp img {
+    width: 1.875rem;
+    height: 1.875rem;
+    max-width: 100%;
+}
+#otros-productos {
+    height: 80vh;
+    
+}
+#otros-productos h2 {
+    margin-left: 9.375rem;
+    font-family:"Inter", sans-serif;
+    color: #484848;
+
+}
+#otros-productos .otros-productos-contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8.75rem;
+    margin-right: 5.625rem;
+}
+#otros-productos .otros-productos-contenedor div {
+    margin-top: 1.875rem;
+    height: 17.5rem;
+    width: 25rem;
+    background-color: #D9D9D9;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5) ;
+    border-radius: 1.563rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+@media (min-width: 300px) and (max-width: 480px){
+    /*menu*/
+    nav{
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display:none;
+        padding-top: 1.563rem;
+        width: 25rem;
+        justify-content: space-between;
+    }
+    /*slogan-y-banner*/
+    #banner-slogan {
+        padding-top: 3.5rem;
+        padding-bottom: 2.5rem;
+    }
+    #banner-slogan .slider {
+        width: 100%;
+        height: 8rem;
+        margin: 0.625rem auto 0;
+        overflow: hidden;
+        border-radius: 0rem;
+        box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5);}
+    #banner-slogan .slogan {
+            margin-top: 1.2rem;
+            
+        }
+    #banner-slogan .slogan .primera-tipografia{
+        font-size: 1.5rem;
+        font-family: "Cookie", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+    #banner-slogan .slogan .segunda-tipografia {
+        padding-left: 10px;
+        font-size: 1.2rem;
+        font-family: "Galada", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #banner-slogan .firma-tinplay{
+        margin-left: 15rem ;
+        height: 35px;
+        width: 80px;
+    }
+    /*productos*/
+    #productos{
+        width: 100%;
+        height: 100rem;
+        padding-top: 4rem;
+        padding-bottom: 25rem;
+        /*background-image: url(../images/fondo-productos.svg);*/
+        background-color: red;
+        background-position: center;
+        background-size: cover;
+    }
+    #productos h1 {
+        color: white;
+        margin-left: 2.5rem;
+        font-size: 2rem;
+        font-family: "Galada", cursive;
+    
+    }
+    
+    #productos p {
+        color: white;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        font-size: 0.8rem;
+        max-width: 50rem;
+    
+    }
+    
+    .contenedor-products{
+        margin-top: 2.5rem;
+        padding-bottom: 12.5rem;
+        margin-left: 2.5rem ;
+        margin-right: 9.375rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .foto-producto:hover{
+        width: 110%;
+        height: 110%;
+    }
+     h3 {
+        font-family: "Cookie", cursive;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 0.938rem;
+        padding-bottom: 15px;
+    }
+    .contenedor-products div {
+        height: 16.375rem;
+        width: 18rem;
+        background-color: white;
+        box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.3);
+        margin-top: 0.938rem;
+        border-radius: 1.563rem;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .contenedor-products div .edades {
+        background-color: red;
+        width: 130px;
+        height: 35px;
+        position: absolute;
+        display:flex ;
+        align-items: center;
+        margin-right: 150px;
+        margin-bottom: 50px;
+        z-index: 99;
+    }
+    .contenedor-products div .hover{
+        height: 16.375rem;
+        width: 18rem;
+    }
+    .contenedor-products .ver-mas {
+        position: absolute;
+        height: 3.125rem;
+        background-color: #686767;
+        display: flex;
+        align-items: center ;
+        margin-top: 14.188rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+    .contenedor-products .ver-mas h4 {
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 0.875rem;
+    }
+    /*como comprar*/
+    #como-comprar {
+        height: auto;
+    }
+    #como-comprar h1{
+        margin-left: 2.5rem;
+        font-family: inter;
+        padding-top: 1.875rem;
+        font-size: 2rem;
+        font-family: "Galada", cursive;
+        color: #484848;
+    
+    }
+    #como-comprar p{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        font-family: inter;
+        padding-top: 0rem;
+        font-size: 0.8rem;
+        max-width: 30rem;
+        color: #484848;
+    }
+    #como-comprar .compras{
+        margin-top: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    #como-comprar .mercado-libre{
+        background-color: white;
+        border: solid 0.25rem #F7E000;
+        width: 18rem;
+        height: 3.75rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+    }
+    #como-comprar .mercado-libre img {
+        padding-left: 1.25rem;
+        width: 3.125rem;
+        height: 3.125rem;
+        max-width: 100%;
+    }
+    #como-comprar .mercado-libre h4 {
+        font-family: "Inter", sans-serif;
+        padding-left: 3rem;
+        font-size: 1rem;
+        color: #F7E000;
+    }
+    #como-comprar .tienda-nube{
+        background-color: white;
+        border: solid 0.25rem #2B3152;
+        width: 18rem;
+        height: 3.75rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+    }
+    #como-comprar .tienda-nube img {
+        padding-left: 1.25rem;
+        width: 3.125rem;
+        height: 3.125rem;
+        max-width: 100%;
+    }
+    #como-comprar .tienda-nube h4 {
+        font-family: "Inter", sans-serif;
+        padding-left: 3rem;
+        font-size: 1rem;
+        color: #2B3152;
+        
+    }
+    #como-comprar .whatsapp{
+        background-color: white;
+        border: solid 0.25rem #00C307;
+        width: 18rem;
+        height: 3.75rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+    }
+    #como-comprar .whatsapp img {
+        padding-left: 1.25rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        max-width: 100%;
+    }
+    #como-comprar .whatsapp h4 {
+        font-family: "Inter", sans-serif;
+        padding-left: 4rem;
+        font-size: 1rem;
+        color: #00C307;
+    
+    }
+    #como-comprar .titulo-slider {
+        font-family: "Inter", sans-serif;
+        margin-left: 2.5rem;
+        margin-top: 3.125rem;
+        color: #484848;
+    }
+    #como-comprar .slider-infinito{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 1.25rem;
+        margin-bottom: 1.563rem;
+        margin-left:0;
+    }
+    /*sobre nosotros*/
+    #sobre-nosotros{
+        height: auto;
+    }
+    #sobre-nosotros h1{
+        margin-left: 2.5rem;
+        font-size: 2rem;
+    
+    }
+    #sobre-nosotros p {
+        max-width: 30rem;
+        margin-left: 2.5rem;
+        font-size: 0.8rem;
+    }
+    /*footer*/
+    footer{
+        background-image: url(../images/Maskgroup.svg);
+        height: auto;
+        
+    }
+    footer .contenedor-footer{
+        padding-top: 12.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: space-around;
+        height: 25rem;
+        gap: 1rem;
+    }
+    footer .menu-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 9.375rem;
+        gap: 0.5rem;
+    }
+    footer .menu-footer a{
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        padding-top: 0.625rem;
+    }
+    footer .contenedor-footer .contacto {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.25rem;
+    }
+    footer .contenedor-footer .contacto a {
+        font-family: "Inter", sans-serif;
+        color: white; 
+        padding-left: 0.625rem;
+        font-size: 1.125rem;
+    }
+    footer .marca-registrada {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0.938rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        gap: 1.2rem;
+        padding-bottom: 6rem;
+    }
+    footer .marca-registrada h4{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-weight: 200;
+        font-size: 0.875rem;
+    }
+    footer .marca-registrada a {
+        font-family: "Inter", sans-serif;
+        font-size: 0.75rem;
+    }
+    footer .marca-registrada .telefono{
+        display: flex;
+        align-items: center;
+    }
+    footer .marca-registrada .telefono a {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+    footer .marca-registrada .mail{
+        display: flex;
+        align-items: center;
+    }
+    footer .marca-registrada .mail a {
+        padding-left: 0.625rem;
+        font-size: 1rem;
+    }
+    footer .redes{
+        display: flex;
+        width: 12.5rem;
+        justify-content: space-between;
+    }
+    footer .redes img {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 1.25rem;
+        max-width: 100%;
+    }
+    footer .linea {
+        width: 80%;
+        height: 0.063rem;
+        background-color: white;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 3.125rem;
+    }
+    
+}
+@media (min-width: 480px)and(max-width: 768px) {
+
+}
+@media (min-width: 768px)and(max-width: 960px){
+
+}
+@media (min-width: 960px)and(max-width: 1024px){
+
+}
+@media (min-width: 1024px)and(max-width: 1328px){
+
+}
