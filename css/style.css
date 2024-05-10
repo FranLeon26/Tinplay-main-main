@@ -174,11 +174,11 @@ a{
 }
 #productos{
     width: 100%;
-    height: 30rem;
+    height: 50rem;
     padding-top: 12.5rem;
     padding-bottom: 25rem;
-    /*background-image: url(../images/fondo-productos.svg);*/
-    background-color: red;
+    background-image: url(../images/fondo-productos.svg);
+    /*background-color: red;*/
     background-position: center;
     background-size: cover;
 }
@@ -203,15 +203,16 @@ a{
     padding-bottom: 12.5rem;
     margin-left: 9.375rem ;
     margin-right: 9.375rem;
+    /*max-width: 98.75rem;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
-.foto-producto:hover{
+/*.foto-producto:hover{
     width: 110%;
-    height: 110%;
-}
+    height: 110%;*/
+
  h3 {
     font-family: "Cookie", cursive;
     font-weight: 500;
@@ -434,7 +435,17 @@ a{
     max-width: 100%;
 }
 #sobre-nosotros{
-    height: 45vh;
+    height: 60vh;
+    
+}
+#sobre-nosotros .contenedor-sobrenosotros{
+    display: flex;
+    gap: 6rem;
+}
+#sobre-nosotros .contenedor-sobrenosotros img{
+    height: 200px;
+    width: 400px;
+    padding-top: 20px;
 }
 #sobre-nosotros h1{
     margin-left: 9.375rem;
@@ -446,7 +457,7 @@ a{
 
 }
 #sobre-nosotros p {
-    max-width: 51.875rem;
+    max-width: 44rem;
     margin-left: 9.375rem;
     font-size: 1rem;
 }
@@ -640,7 +651,8 @@ footer .linea {
 #producto .descripcion .colores-disponibles .colores {
     display: flex;
     justify-content: space-between;
-    width: 8.75rem;
+    width: 10rem;
+    gap: 0.5rem;
 }
 #producto .descripcion .colores-disponibles .colores .rojo {
     width: 2.5rem;
@@ -659,6 +671,20 @@ footer .linea {
     width: 2.438rem;
     height: 2.438rem;
     background-color: white;
+    border: solid 0.063rem black;
+    border-radius: 6.25rem;
+}
+#producto .descripcion .colores-disponibles .colores .beige {
+    width: 2.438rem;
+    height: 2.438rem;
+    background-color: beige;
+    border: solid 0.063rem black;
+    border-radius: 6.25rem;
+}
+#producto .descripcion .colores-disponibles .colores .gris {
+    width: 2.438rem;
+    height: 2.438rem;
+    background-color: rgb(181, 181, 181);
     border: solid 0.063rem black;
     border-radius: 6.25rem;
 }
@@ -743,7 +769,21 @@ footer .linea {
 
     
 }
-
+@media (min-width: 0px) and (max-width: 480px){
+    /*menu*/
+    nav{
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+    .menu{
+        display:none;
+    }
+    .nav{
+        display: grid;
+    }}
 @media (min-width: 300px) and (max-width: 480px){
     /*menu*/
     nav{
@@ -766,7 +806,7 @@ footer .linea {
     }
     #banner-slogan .slider {
         width: 100%;
-        height: 8rem;
+        height: 8.7rem;
         margin: 0.625rem auto 0;
         overflow: hidden;
         border-radius: 0rem;
@@ -829,7 +869,7 @@ footer .linea {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        
+        align-items: center;
     }
 
      h3 {
@@ -997,6 +1037,16 @@ footer .linea {
     #sobre-nosotros{
         height: auto;
     }
+    #sobre-nosotros .contenedor-sobrenosotros{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+    }
+    #sobre-nosotros .contenedor-sobrenosotros img{
+        width:80%;
+        height: 80%;
+    }
     #sobre-nosotros h1{
         margin-left: 2.5rem;
         font-size: 2rem;
@@ -1161,7 +1211,7 @@ footer .linea {
     }
     #producto .descripcion .colores-disponibles{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         width: 20.625rem;
         margin-left: 2.5rem;
@@ -1174,7 +1224,7 @@ footer .linea {
     #producto .descripcion .colores-disponibles .colores {
         display: flex;
         justify-content: space-between;
-        width: 8.75rem;
+        width: 7rem;
     }
     #producto .descripcion .colores-disponibles .colores .rojo {
         width: 2rem;
@@ -1280,6 +1330,9 @@ footer .linea {
         
     }
     
+}
+@media (min-width: 370px)and(max-width: 480px) {
+
 }
 @media (min-width: 480px)and(max-width: 768px) {
 
