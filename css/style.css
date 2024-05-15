@@ -1183,8 +1183,8 @@ footer .linea {
     }
     
     #producto .producto-individual img{
-        height: 15.8rem;
-        width: 18rem;
+        height: 16.5rem;
+        width: 22rem;
         max-width: 100%;
         
     }
@@ -1213,7 +1213,7 @@ footer .linea {
         margin-left: 0.5rem;
     }
     #producto .descripcion p {
-        max-width: 22rem;
+        max-width: 20rem;
         margin-left: 0.5rem;
         font-size: 0.8rem;
     }
@@ -1221,7 +1221,7 @@ footer .linea {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 22rem;
+        width: 20rem;
         margin-left: 0.5rem;
         margin-top: 1.875rem;
         gap: 0.2rem;
