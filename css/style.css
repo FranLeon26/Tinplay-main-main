@@ -772,6 +772,10 @@ footer .linea {
 
     
 }
+#otros-productos .otros-productos-contenedor div img{
+    width: 90%;
+    height: 90%;
+}
 @media (min-width: 0px) and (max-width: 480px){
     /*menu*/
     nav{

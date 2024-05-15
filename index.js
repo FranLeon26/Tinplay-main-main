@@ -135,6 +135,30 @@ function mostrarImagen_baquettin_gris(idImagen) {
               } else if (idImagen === "imagen4") {
                 imagen.src = "../images/wagon-negro-grande4.jpg";
               } }
+              function mostrarImagenWagonGris(idImagen) {
+                var imagen = document.getElementById("imagenMostrada_Wagon_gris");
+              
+                if (idImagen === "imagen1") {
+                  imagen.src = "../images/colores nuevos/wagon-gris1.jpg";
+                } else if (idImagen === "imagen2") {
+                  imagen.src = "../images/colores nuevos/wagon-gris2.jpg";
+                } else if (idImagen === "imagen3") {
+                  imagen.src = "../images/colores nuevos/wagon-gris3.jpg";
+                } else if (idImagen === "imagen4") {
+                  imagen.src = "../images/colores nuevos/wagon-gris4.jpg";
+                } }
+                function mostrarImagenWagonBeige(idImagen) {
+                  var imagen = document.getElementById("imagenMostrada_Wagon_beige");
+                
+                  if (idImagen === "imagen1") {
+                    imagen.src = "../images/colores nuevos/wagon-beige1.jpg";
+                  } else if (idImagen === "imagen2") {
+                    imagen.src = "../images/colores nuevos/wagon-beige4.jpg";
+                  } else if (idImagen === "imagen3") {
+                    imagen.src = "../images/colores nuevos/wagon-beige3.jpg";
+                  } else if (idImagen === "imagen4") {
+                    imagen.src = "../images/colores nuevos/wagon-beige2.jpg";
+                  } }
               function mostrarImagenTriciclo(idImagen) {
                 var imagen = document.getElementById("imagenMostrada_Triciclo");
               
