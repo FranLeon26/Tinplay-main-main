@@ -37,30 +37,30 @@ function mostrarImagen(idImagen) {
     imagen.src = "../images/baquettin-blanco-grande4.jpg";
   } }
 
-function mostrarImagen_baquettin_beige(idImagen) {
-  var imagen = document.getElementById("imagenMostrada_baquettin_beige");
+function mostrarImagenBaquettinBeige(idImagen) {
+  var imagen = document.getElementById("imagenMostrada_baquettin_Beige");
 
   if (idImagen === "imagen1") {
-    imagen.src = "../images/baquettin-negro_grande1.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-beige1.jpg";
   } else if (idImagen === "imagen2") {
-    imagen.src = "../images/baquettin-negro_grande2.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-beige5.jpg";
   } else if (idImagen === "imagen3") {
-    imagen.src = "../images/baquettin-negro_grande3.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-beige3.jpg";
   } else if (idImagen === "imagen4") {
-    imagen.src = "../images/baquettin-negro_grande4.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-beige4.jpg";
   }
 }
-function mostrarImagen_baquettin_gris(idImagen) {
-  var imagen = document.getElementById("imagenMostrada_baquettin_baquetin_gris");
+function mostrarImagenBaquettinGris(idImagen) {
+  var imagen = document.getElementById("imagenMostrada_baquettin_gris");
 
   if (idImagen === "imagen1") {
-    imagen.src = "../images/baquettin-negro_grande1.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-gris2.jpg";
   } else if (idImagen === "imagen2") {
-    imagen.src = "../images/baquettin-negro_grande2.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-gris3.jpg";
   } else if (idImagen === "imagen3") {
-    imagen.src = "../images/baquettin-negro_grande3.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-gris4.jpg";
   } else if (idImagen === "imagen4") {
-    imagen.src = "../images/baquettin-negro_grande4.jpg";
+    imagen.src = "../images/colores nuevos/baquettin-gris5.jpg";
   }
 }
   function mostrarImagenBugattinBlanco(idImagen) {
