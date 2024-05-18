@@ -774,9 +774,16 @@ footer .linea {
     
 }
 #otros-productos .otros-productos-contenedor div img{
-    /*width: 90%;*/
     height: 90%;
 }
+    #otros-productos .otros-productos-contenedor div #baquetin-rojo-en-peluqueria {
+        width: 95%;
+        height: 95%;
+    }
+    #otros-productos .otros-productos-contenedor div #surtidor-en-peluqueria {
+        width: 95%;
+        height: 95%;
+    }
 @media (min-width: 0px) and (max-width: 480px){
     /*menu*/
     nav{
