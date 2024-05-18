@@ -183,3 +183,15 @@ function mostrarImagenBaquettinGris(idImagen) {
                   } else if (idImagen === "imagen4") {
                     imagen.src = "../images/surtidor-grande4.jpg";
                   } }
+                  function mostrarImagenPeluqueria(idImagen) {
+                    var imagen = document.getElementById("imagenMostrada_Peluqueria");
+                  
+                    if (idImagen === "imagen1") {
+                      imagen.src = "../images/peluqueria1.jpg";
+                    } else if (idImagen === "imagen2") {
+                      imagen.src = "../images/peluqueria2.jpg";
+                    } else if (idImagen === "imagen3") {
+                      imagen.src = "../images/peluqueria3.jpg";
+                    } else if (idImagen === "imagen4") {
+                      imagen.src = "../images/peluqueria4.jpg";
+                    } }
