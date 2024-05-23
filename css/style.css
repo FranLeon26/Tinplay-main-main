@@ -640,6 +640,15 @@ footer .linea {
     max-width: 37.5rem;
     margin-left: 3.125rem;
 }
+#producto .descripcion ul {
+    max-width:480px;
+    margin-left: 4rem;
+    /*list-style-position: inside;*/
+}
+#producto .descripcion ul li{
+    font-family: "Inter", sans-serif;
+    padding-top: 0.5rem;
+}
 #producto .descripcion .colores-disponibles{
     display: flex;
     justify-content: space-between;
