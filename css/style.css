@@ -401,13 +401,14 @@ a{
     color: #00C307;
 
 }
-#como-comprar .titulo-slider {
+#sobre-nosotros .titulo-slider {
     font-family: "Inter", sans-serif;
     margin-left: 9.375rem;
     margin-top: 3.125rem;
-    color: #484848;
+    color: #ff0000;
+    font-size: 1.2rem;
 }
-#como-comprar .slider-infinito{
+#sobre-nosotros .slider-infinito{
     width: 80%;
     height: auto;
     margin: auto;
@@ -416,7 +417,7 @@ a{
     margin-bottom: 1.563rem;
     margin-left: 9.375rem;
 }
-#como-comprar .slider-infinito .slider-track{
+#sobre-nosotros .slider-infinito .slider-track{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -425,17 +426,17 @@ a{
     width: calc(9.375rem * 16);
     background-color: white;
 }
-#como-comprar .slider-infinito .slide{
+#sobre-nosotros .slider-infinito .slide{
     width: 9.375rem;
     padding-left: 0.938rem;
     padding-right: 0.938rem;
 }
-#como-comprar .slider-infinito .slide img {
+#sobre-nosotros .slider-infinito .slide img {
     width: 100%;
     max-width: 100%;
 }
 #sobre-nosotros{
-    height: 60vh;
+    height: 75vh;
     
 }
 #sobre-nosotros .contenedor-sobrenosotros{
@@ -457,10 +458,12 @@ a{
 
 }
 #sobre-nosotros p {
-    max-width: 44rem;
+    max-width: 70rem;
     margin-left: 9.375rem;
     font-size: 1rem;
-    text-align: start;
+    text-align: justify;
+    line-height: 20px;
+    color: #484848;
 }
 
 footer{
@@ -510,6 +513,7 @@ footer .marca-registrada h4{
     font-family: "Inter", sans-serif;
     color: white;
     font-size: 0.875rem;
+    font-weight: 200;
 }
 footer .marca-registrada a {
     font-family: "Inter", sans-serif;
@@ -636,18 +640,33 @@ footer .linea {
     font-family: "Galada", cursive;
     margin-left: 3.125rem;
 }
+#producto .descripcion .stock{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #949494;
+    font-family: "Inter", sans-serif;
+    margin-left: 3.125rem;
+}
+#producto .descripcion .envios{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ff0000;
+    font-family: "Inter", sans-serif;
+    margin-left: 3.125rem;
+}
 #producto .descripcion p {
     max-width: 37.5rem;
     margin-left: 3.125rem;
 }
 #producto .descripcion ul {
-    max-width:480px;
-    margin-left: 4rem;
-    /*list-style-position: inside;*/
+    max-width:500px;
+    margin-left: 3.4rem;
+    
 }
 #producto .descripcion ul li{
     font-family: "Inter", sans-serif;
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
+    list-style: none;
 }
 #producto .descripcion .colores-disponibles{
     display: flex;
