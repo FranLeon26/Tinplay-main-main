@@ -971,7 +971,7 @@ footer .linea {
     /*productos*/
     #productos{
         width: 100%;
-        height: 110rem;
+        height: 130rem;
         padding-top: 10rem;
         padding-bottom: 20rem;
         background-image: url(../images/fondo-mobile.svg);
@@ -998,7 +998,7 @@ footer .linea {
     
     .contenedor-products{
         margin-top: 2.5rem;
-        padding-bottom: 12.5rem;
+        /*padding-bottom: 5rem;*/
         margin-left: 2.5rem ;
         margin-right: 2.5rem;
         display: flex;
@@ -1057,116 +1057,42 @@ footer .linea {
         font-family: "Inter", sans-serif;
         font-size: 0.875rem;
     }
-    /*como comprar*/
-    #como-comprar {
-        height: auto;
-    }
-    #como-comprar h1{
-        margin-left: 2.5rem;
-        font-family: inter;
-        padding-top: 1.875rem;
-        font-size: 2rem;
-        font-family: "Galada", cursive;
-        color: #484848;
-    
-    }
-    #como-comprar p{
-        margin-left: 2.5rem;
+    .products-segunda-linea {
+        padding-bottom: 12.5rem;
+        margin-left: 2.5rem ;
         margin-right: 2.5rem;
-        font-family: inter;
-        padding-top: 0rem;
-        font-size: 0.8rem;
-        max-width: 30rem;
-        color: #484848;
-    }
-    #como-comprar .compras{
-        margin-top: 3.125rem;
+        max-width: 98.75rem;
         display: flex;
-        flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
-        justify-content: space-between;
-        gap: 1rem;
-    }
-    #como-comprar .mercado-libre{
-        background-color: white;
-        border: solid 0.25rem #F7E000;
-        width: 20rem;
-        height: 3.75rem;
-        border-radius: 1.25rem;
-        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
     }
-    #como-comprar .mercado-libre img {
-        padding-left: 1.25rem;
-        width: 3.125rem;
+    .products-segunda-linea div {
+        height: 16.375rem;
+        width: 20rem;
+        background-color: white;
+        box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.3);
+        margin-top: 0.938rem;
+        border-radius: 1.563rem;
+        display: flex;
+        justify-content: center
+    }
+    .products-segunda-linea div .hover{
+        height: 16.375rem;
+        width: 20rem; }
+    .products-segunda-linea .proximamente div .opacidad {
+        height: 16.375rem;
+        width: 20rem;
+    }
+    .products-segunda-linea .ver-mas {
+        position: absolute;
         height: 3.125rem;
-        max-width: 100%;
-    }
-    #como-comprar .mercado-libre h4 {
-        font-family: "Inter", sans-serif;
-        padding-left: 4.5rem;
-        font-size: 1rem;
-        color: #F7E000;
-    }
-    #como-comprar .tienda-nube{
-        background-color: white;
-        border: solid 0.25rem #2B3152;
-        width: 20rem;
-        height: 3.75rem;
-        border-radius: 1.25rem;
+        background-color: #686767;
         display: flex;
-        align-items: center;
-    }
-    #como-comprar .tienda-nube img {
-        padding-left: 1.25rem;
-        width: 3.125rem;
-        height: 3.125rem;
-        max-width: 100%;
-    }
-    #como-comprar .tienda-nube h4 {
-        font-family: "Inter", sans-serif;
-        padding-left: 5rem;
-        font-size: 1rem;
-        color: #2B3152;
-        
-    }
-    #como-comprar .whatsapp{
-        background-color: white;
-        border: solid 0.25rem #00C307;
-        width: 20rem;
-        height: 3.75rem;
-        border-radius: 1.25rem;
-        display: flex;
-        align-items: center;
-    }
-    #como-comprar .whatsapp img {
-        padding-left: 1.25rem;
-        width: 2.5rem;
-        height: 2.5rem;
-        max-width: 100%;
-    }
-    #como-comprar .whatsapp h4 {
-        font-family: "Inter", sans-serif;
-        padding-left: 6rem;
-        font-size: 1rem;
-        color: #00C307;
-    
-    }
-    #como-comprar .titulo-slider {
-        font-family: "Inter", sans-serif;
-        margin-left: 2.5rem;
-        margin-top: 3.125rem;
-        color: #484848;
-    }
-    #como-comprar .slider-infinito{
-        width: 100%;
-        height: auto;
-        margin: auto;
-        overflow: hidden;
-        margin-top: 1.25rem;
-        margin-bottom: 1.563rem;
-        margin-left:0;
+        align-items: center ;
+        margin-top: 14.188rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
     }
     /*sobre nosotros*/
     #sobre-nosotros{
@@ -1188,9 +1114,24 @@ footer .linea {
     
     }
     #sobre-nosotros p {
-        max-width: 25rem;
-        margin-left: 2.5rem;
+        max-width: 18rem;
+        margin-left: 1rem;
         font-size: 0.8rem;
+    }
+    #sobre-nosotros .titulo-slider {
+        font-family: "Inter", sans-serif;
+        margin-left: 2.5rem;
+        margin-top: 3.125rem;
+        color: #ff0000;
+    }
+    #sobre-nosotros .slider-infinito{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 1.25rem;
+        margin-bottom: 1.563rem;
+        margin-left:0;
     }
     /*footer*/
     footer{
