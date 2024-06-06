@@ -111,7 +111,7 @@ nav{
 /*fin-nav-responsive*/
 .menu{
     display: flex;
-    padding-top: 1.563rem;
+    padding-top: 1.4rem;
     width: 25rem;
     justify-content: space-between;
 }
@@ -172,6 +172,11 @@ a{
 #banner-slogan .firma-tinplay{
     margin-left: 62.5rem ;
 }
+#banner-slogan .raya {
+    width: 40%;
+    height: 40%;
+    margin-left: 30rem ;
+}
 #productos{
     width: 100%;
     height: 50rem;
@@ -200,7 +205,7 @@ a{
 
 .contenedor-products{
     margin-top: 2.5rem;
-    padding-bottom: 12.5rem;
+    padding-bottom: 1rem;
     margin-left: 9.375rem ;
     margin-right: 9.375rem;
     max-width: 98.75rem;
@@ -209,9 +214,6 @@ a{
     justify-content: space-between;
     
 }
-/*.foto-producto:hover{
-    width: 110%;
-    height: 110%;*/
 
  h3 {
     font-family: "Cookie", cursive;
@@ -237,24 +239,9 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.contenedor-products .triciclo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contenedor-products .surtidor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contenedor-products .peluqueria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .contenedor-products div {
     height: 16.375rem;
-    width: 22.938rem;
+    width: 24.5rem;
     background-color: white;
     box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.3);
     margin-top: 0.938rem;
@@ -281,13 +268,11 @@ a{
     align-items: center;
     justify-content: center;
     height: 16.375rem;
-    width: 22.938rem;
+    width: 24.5rem;
     position: absolute;
     margin-top: 0rem;
     background-color: rgb(0, 0, 0, 0.7) ;
     opacity: 0;
-    
-
 }
 .contenedor-products div .hover:hover {
     opacity: 100;
@@ -308,7 +293,114 @@ a{
     font-family: "Inter", sans-serif;
     font-size: 0.875rem;
 }
+.products-segunda-linea {
+    padding-bottom: 12.5rem;
+    margin-left: 9.375rem ;
+    margin-right: 9.375rem;
+    max-width: 98.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products-segunda-linea div {
+    height: 13rem;
+    width: 18rem;
+    background-color: white;
+    box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.3);
+    margin-top: 0.938rem;
+    border-radius: 1.563rem;
+    display: flex;
+    justify-content: center
+}
+.products-segunda-linea .edades {
+    background-color: red;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    display:flex ;
+    align-items: center;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    z-index: 99;
+}
+.products-segunda-linea .edades h6 {
+    font-family: "Inter", sans-serif;
+}
+.products-segunda-linea div .hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+    width: 18rem;
+    position: absolute;
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0, 0.7) ;
+    opacity: 0;
+}
+.products-segunda-linea div .hover:hover {
+    opacity: 100;
+}
+.products-segunda-linea .ver-mas {
+    position: absolute;
+    height: 3.125rem;
+    background-color: #686767;
+    display: flex;
+    align-items: center ;
+    margin-top: 11rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.products-segunda-linea .ver-mas h4 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+}
+.products-segunda-linea .triciclo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-segunda-linea .surtidor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-segunda-linea .peluqueria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-segunda-linea .proximamente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.products-segunda-linea .proximamente div{
+    background-color: #939191;
+    align-items: center;
+    overflow-y: hidden;
+    display: flex;
+}
+.products-segunda-linea .proximamente div h4 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: "Galada", cursive;
+}
+.products-segunda-linea .proximamente div .opacidad{
+    height: 13rem;
+    width: 18rem;
+    background-color: rgb(0, 0, 0, 0.7) ;
+    opacity: 80;
+    position: absolute;
+    margin-bottom: 0.938rem;
 
+}
+.products-segunda-linea .proximamente div .foto-producto{
+    height: 11rem;
+    width: 14rem;
+}
 #como-comprar{
     height: 80vh;
 }
@@ -586,7 +678,7 @@ footer .linea {
 
 /*seccion de producto*/
 .flecha{
-    margin-top: 6.25rem;
+    margin-top: 5rem;
 }
 .volver-home {
     margin-left: 9.375rem;
@@ -643,7 +735,7 @@ footer .linea {
 #producto .descripcion .stock{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: #949494;
+    color: #ff0000;
     font-family: "Inter", sans-serif;
     margin-left: 3.125rem;
 }
