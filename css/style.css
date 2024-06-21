@@ -134,6 +134,13 @@ a{
 #banner-slogan {
     padding-top: 4.375rem;
 }
+#banner-slogan .tres-estrellas{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+    margin-top: 3.5rem;
+}
 #banner-slogan .slider {
     width: 80%;
     height: 28.125rem;
@@ -424,6 +431,12 @@ a{
     position: absolute;
     z-index: 1;
 }
+#sobre-nosotros .tres-estrellas-nosotros{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 25rem;
+}
 #sobre-nosotros .titulo-slider {
     font-family: "Inter", sans-serif;
     margin-left: 9.375rem;
@@ -569,6 +582,7 @@ footer .redes{
     display: flex;
     width: 12.5rem;
     justify-content: space-between;
+    z-index: 100;
 }
 footer .redes img {
     width: 3.125rem;
@@ -890,6 +904,9 @@ footer .lapiz{
         justify-content: space-between;
         display: none;
     }
+    nav .avioncito{
+        margin-left: 10rem;
+    }
     .menu{
         display:none;
     }
@@ -930,6 +947,9 @@ footer .lapiz{
         height: 35px;
         width: 80px;
     }
+    #banner-slogan .raya {
+        margin-left: 10rem;
+    }
     /*productos*/
     #productos{
         width: 100%;
@@ -940,6 +960,20 @@ footer .lapiz{
         /*background-color: red;*/
         background-position: center;
         background-size: cover;
+    }
+    #productos .planeta{
+        margin-left: 20rem;
+        margin-top: 1rem;
+        position: absolute;
+    }
+    #productos .avion{
+        margin-left: 4rem;
+        margin-bottom: 10rem;
+        position: absolute;
+
+    }
+    #productos .avioncito1{
+        margin-left: 2rem;
     }
     #productos h1 {
         color: white;
