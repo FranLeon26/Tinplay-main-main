@@ -67,23 +67,23 @@ function mostrarImagenBaquettinGris(idImagen) {
     var imagen = document.getElementById("imagenMostrada_Bugattin_Blanco");
   
     if (idImagen === "imagen1") {
-      imagen.src = "../images/bugattin-blanco-grande1.jpg";
+      imagen.src = "../images/bugattin-blanco-NUEVO.jpg";
     } else if (idImagen === "imagen2") {
-      imagen.src = "../images/bugattin-blanco-grande2.jpg";
+      imagen.src = "../images/bugattin-blanco-NUEVO/bugattin-blanco-NUEVO2.jpg";
     } else if (idImagen === "imagen3") {
-      imagen.src = "../images/bugattin-blanco-grande3.jpg";
+      imagen.src = "../images/bugatin-blanco-NUEVO1.jpg";
     } else if (idImagen === "imagen4") {
-      imagen.src = "../images/bugattin-blanco-grande4.jpg";
+      imagen.src = "../images/bugattin-blanco-NUEVO/bugattin-blanco-NUEVO3.jpg";
     } }
     function mostrarImagenBugattinNegro(idImagen) {
       var imagen = document.getElementById("imagenMostrada_Bugattin_negro");
     
       if (idImagen === "imagen1") {
-        imagen.src = "../images/bugattin-negro-grande1.jpg";
+        imagen.src = "../images/bugattin-negro-NUEVO1.jpg";
       } else if (idImagen === "imagen2") {
-        imagen.src = "../images/bugattin-negro-grande2.jpg";
+        imagen.src = "../images/bugattin-negro-NUEVO2.jpg";
       } else if (idImagen === "imagen3") {
-        imagen.src = "../images/bugattin-negro-grande4.jpg";
+        imagen.src = "../images/bugattin-negro-NUEVO3.jpg";
       } else if (idImagen === "imagen4") {
         imagen.src = "../images/bugattin-negro-grande3.jpg";
       } }
@@ -91,14 +91,38 @@ function mostrarImagenBaquettinGris(idImagen) {
         var imagen = document.getElementById("imagenMostrada_Bugattin_Rojo");
       
         if (idImagen === "imagen1") {
-          imagen.src = "../images/bugattin-rojo-grande1.jpg";
+          imagen.src = "../images/bugattin-rojo-NUEVO.jpg";
         } else if (idImagen === "imagen2") {
-          imagen.src = "../images/bugattin-rojo-grande2.jpg";
+          imagen.src = "../images/bugattin-rojo-NUEVO1.jpg";
         } else if (idImagen === "imagen3") {
-          imagen.src = "../images/bugattin-rojo-grande1.jpg";
+          imagen.src = "../images/bugattin-rojo-NUEVO.jpg";
         } else if (idImagen === "imagen4") {
-          imagen.src = "../images/bugattin-rojo-grande2.jpg";
+          imagen.src = "../images/bugattin-rojo-NUEVO1.jpg";
         } }
+        function mostrarImagenBugattinBeige(idImagen) {
+          var imagen = document.getElementById("imagenMostrada_Bugattin_Beige");
+        
+          if (idImagen === "imagen1") {
+            imagen.src = "../images/bugattin-beige-NUEVO.jpg";
+          } else if (idImagen === "imagen2") {
+            imagen.src = "../images/bugattin-beige-NUEVO1.jpg";
+          } else if (idImagen === "imagen3") {
+            imagen.src = "../images/bugattin-beige-NUEVO2.jpg";
+          } else if (idImagen === "imagen4") {
+            imagen.src = "../images/bugattin-beige-NUEVO3.jpg";
+          } }
+          function mostrarImagenBugattinGris(idImagen) {
+            var imagen = document.getElementById("imagenMostrada_Bugattin_Gris");
+          
+            if (idImagen === "imagen1") {
+              imagen.src = "../images/bugattin-gris-NUEVO.jpg";
+            } else if (idImagen === "imagen2") {
+              imagen.src = "../images/buagattin-gris-NUEVO1.jpg";
+            } else if (idImagen === "imagen3") {
+              imagen.src = "../images/bugattin-gris-NUEVO.jpg";
+            } else if (idImagen === "imagen4") {
+              imagen.src = "../images/bugattin-gris-NUEVO2.jpg";
+            } }
         function mostrarImagenWagonRojo(idImagen) {
           var imagen = document.getElementById("imagenMostrada_Wagon_Rojo");
         

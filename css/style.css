@@ -19,6 +19,12 @@ header{
     width: 100%;
     z-index: 100;
 }
+nav .avioncito{
+    width: 10rem;
+    height: 5rem;
+    position: absolute;
+    margin-left: 38rem;
+}
 nav{
     margin-left: 10%;
     margin-right: 10%;
@@ -173,19 +179,25 @@ a{
     margin-left: 62.5rem ;
 }
 #banner-slogan .raya {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     margin-left: 30rem ;
 }
 #productos{
     width: 100%;
     height: 50rem;
     padding-top: 12.5rem;
-    padding-bottom: 25rem;
+    padding-bottom: 23rem;
     background-image: url(../images/fondo-productos.svg);
     /*background-color: red;*/
     background-position: center;
     background-size: cover;
+}
+#productos .planeta {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    margin-left: 60rem;
 }
 #productos h1 {
     color: white;
@@ -211,8 +223,8 @@ a{
     max-width: 98.75rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+
 }
 
  h3 {
@@ -294,7 +306,7 @@ a{
     font-size: 0.875rem;
 }
 .products-segunda-linea {
-    padding-bottom: 12.5rem;
+    /*padding-bottom: 10rem;*/
     margin-left: 9.375rem ;
     margin-right: 9.375rem;
     max-width: 98.75rem;
@@ -401,97 +413,16 @@ a{
     height: 11rem;
     width: 14rem;
 }
-#como-comprar{
-    height: 80vh;
+#productos .avion {
+    margin-top: 7rem;
+    margin-left: 70rem ;
+    position: absolute;
 }
-#como-comprar h1{
-    margin-left: 9.375rem;
-    font-family: inter;
-    padding-top: 1.875;
-    font-size: 2.188rem;
-    font-family: "Galada", cursive;
-    color: #484848;
-
-}
-#como-comprar p{
-    margin-left: 9.375rem;
-    font-family: inter;
-    padding-top: 1.25rem;
-    font-size: 1.125rem;
-    max-width: 62.5rem;
-    color: #484848;
-}
-#como-comprar .compras{
-    margin-top: 3.125rem;
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    justify-content: space-between;
-}
-#como-comprar .mercado-libre{
-    background-color: white;
-    border: solid 0.25rem #F7E000;
-    width: 23.75rem;
-    height: 3.75rem;
-    border-radius: 1.25rem;
-    display: flex;
-    align-items: center;
-}
-#como-comprar .mercado-libre img {
-    padding-left: 1.25rem;
-    width: 3.125rem;
-    height: 3.125rem;
-    max-width: 100%;
-}
-#como-comprar .mercado-libre h4 {
-    font-family: "Inter", sans-serif;
-    padding-left: 4.375rem;
-    font-size: 1.25rem;
-    color: #F7E000;
-}
-#como-comprar .tienda-nube{
-    background-color: white;
-    border: solid 0.25rem #2B3152;
-    width: 23.75rem;
-    height: 3.75rem;
-    border-radius: 1.25rem;
-    display: flex;
-    align-items: center;
-}
-#como-comprar .tienda-nube img {
-    padding-left: 1.25rem;
-    width: 3.125rem;
-    height: 3.125rem;
-    max-width: 100%;
-}
-#como-comprar .tienda-nube h4 {
-    font-family: "Inter", sans-serif;
-    padding-left: 4.375rem;
-    font-size: 1.25rem;
-    color: #2B3152;
-    
-}
-#como-comprar .whatsapp{
-    background-color: white;
-    border: solid 0.25rem #00C307;
-    width: 23.75rem;
-    height: 3.75rem;
-    border-radius: 1.25rem;
-    display: flex;
-    align-items: center;
-}
-#como-comprar .whatsapp img {
-    padding-left: 1.25rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    max-width: 100%;
-}
-#como-comprar .whatsapp h4 {
-    font-family: "Inter", sans-serif;
-    padding-left: 5.625rem;
-    font-size: 1.25rem;
-    color: #00C307;
-
+#productos .avioncito1 {
+    margin: 1rem;
+    margin-left: 8rem ;
+    position: absolute;
+    z-index: 1;
 }
 #sobre-nosotros .titulo-slider {
     font-family: "Inter", sans-serif;
@@ -515,7 +446,7 @@ a{
     align-items: center;
     animation: scroll 40s linear infinite;
     -webkit-animation: slider-infinito scroll 40s linear infinite ;
-    width: calc(9.375rem * 16);
+    width: calc(9.375rem * 42);
     background-color: white;
 }
 #sobre-nosotros .slider-infinito .slide{
@@ -562,6 +493,13 @@ footer{
     height: 70vh;
     background-image: url(../images/Maskgroup.svg);
     
+}
+footer .destello{
+    height: 25%;
+    width: 25%;
+    margin-left: 33.5rem;
+    margin-top: 12.5rem;
+    position: absolute;
 }
 footer .contenedor-footer{
     padding-top: 12.5rem;
@@ -646,7 +584,16 @@ footer .linea {
     margin-right: 9.375rem;
     margin-top: 3.125rem;
 }
-
+footer .autito{
+    position: absolute;
+    margin-left: 4rem;
+    padding-bottom: 6.5rem;
+}
+footer .lapiz{
+    position: absolute;
+    margin-left: 5.5rem;
+    padding-top: 7.5rem;
+}
 @keyframes slide {
     0%  {margin-left: 0%;}
     15% {margin-left: 0%;}
@@ -670,8 +617,8 @@ footer .linea {
         transform: translateX(0)
     }
     100% {
-        -webkit-transform: translateX(calc(-200px * 8));
-        transform: translateX(calc(-200px * 8))
+        -webkit-transform: translateX(calc(-200px * 12));
+        transform: translateX(calc(-200px * 12))
     }
 
 }
@@ -680,6 +627,12 @@ footer .linea {
 .flecha{
     margin-top: 5rem;
 }
+.flecha .punteada {
+    width: 10%;
+    height: 10%;
+    padding-top: 1rem;
+}
+    
 .volver-home {
     margin-left: 9.375rem;
 }
@@ -726,6 +679,14 @@ footer .linea {
     cursor: pointer;
     max-width: 100%;
 }
+#producto .descripcion .titulo-estrellitas{
+    display: flex;
+}
+#producto .descripcion .titulo-estrellitas .estrellitas{
+    height: 20%;
+    padding-top: 10.5%;
+    margin-left: 10px;
+}
 #producto .descripcion h2 {
     margin-top: 3.125rem;
     color: #484848;
@@ -751,8 +712,9 @@ footer .linea {
     margin-left: 3.125rem;
 }
 #producto .descripcion ul {
-    max-width:500px;
+    max-width:460px;
     margin-left: 3.4rem;
+    text-align: justify;
     
 }
 #producto .descripcion ul li{
@@ -1228,10 +1190,12 @@ footer .linea {
     /*producto individual*/
     .flecha{
         margin-top: 0.5rem;
+        width: 10% !important;
     }
     .volver-home {
         margin-left: 2.5rem;
     }
+ 
     #producto {
         display: flex;
         flex-direction: column;
