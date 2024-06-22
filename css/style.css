@@ -228,10 +228,11 @@ a{
     margin-left: 9.375rem ;
     margin-right: 9.375rem;
     max-width: 98.75rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    justify-content: center;
 }
 
  h3 {
@@ -503,7 +504,7 @@ a{
 }
 
 footer{
-    height: 70vh;
+    /* height: 70vh; */
     background-image: url(../images/Maskgroup.svg);
     
 }
