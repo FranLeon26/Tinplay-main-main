@@ -902,11 +902,16 @@ footer .lapiz{
     }}
 @media (min-width: 300px) and (max-width: 480px){
     /*menu*/
-    nav{
-        margin-left: 4%;
+    header{
+        width: 414px;
+
+    }
+    .nav{
+        padding-left: 0%;
         margin-right: 4%;
-        display: flex;
-        justify-content: space-between;
+        margin-left: 4%;
+    }
+    nav{
         display: none;
     }
     nav .avioncito{
@@ -920,9 +925,12 @@ footer .lapiz{
         display: grid;
     }
     /*slogan-y-banner*/
+    #banner-slogan .tres-estrellas{
+        display: none;
+    }
     #banner-slogan {
         padding-top: 3.5rem;
-        padding-bottom: 2.5rem;
+        /*padding-bottom: 2.5rem;*/
     }
     #banner-slogan .slider {
         width: 100%;
@@ -932,7 +940,7 @@ footer .lapiz{
         border-radius: 0rem;
         box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5);}
     #banner-slogan .slogan {
-            margin-top: 1.2rem;
+            margin-top: 2rem;
             
         }
     #banner-slogan .slogan .primera-tipografia{
@@ -952,6 +960,7 @@ footer .lapiz{
         margin-left: 15rem ;
         height: 35px;
         width: 80px;
+        margin-top: 2rem;
     }
     #banner-slogan .raya {
         margin-left: 10rem;
@@ -1108,8 +1117,8 @@ footer .lapiz{
     }
     #sobre-nosotros .contenedor-sobrenosotros{
         flex-direction: column;
-        align-items: center;
         gap: 2rem;
+        margin-left: 5%;
 
     }
     #sobre-nosotros .contenedor-sobrenosotros img{
@@ -1122,7 +1131,7 @@ footer .lapiz{
     
     }
     #sobre-nosotros p {
-        max-width: 18rem;
+        max-width: 21rem;
         margin-left: 1rem;
         font-size: 0.8rem;
     }
@@ -1131,6 +1140,7 @@ footer .lapiz{
         margin-left: 2.5rem;
         margin-top: 3.125rem;
         color: #ff0000;
+        max-width: 320px;
     }
     #sobre-nosotros .slider-infinito{
         width: 100%;
