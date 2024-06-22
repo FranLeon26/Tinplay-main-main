@@ -34,8 +34,8 @@ nav{
 /*nav-responsive*/
 .container{
     margin: auto;
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 700px;
     overflow: hidden;
     
 }
@@ -901,7 +901,18 @@ footer .lapiz{
         display: grid;
     }}
 @media (min-width: 300px) and (max-width: 480px){
+    body{
+        max-width: 480px;
+    }
     /*menu*/
+    header{
+        width: 412px;
+        position: fixed;
+    }
+    .nav{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
     nav{
         margin-left: 4%;
         margin-right: 4%;
@@ -910,19 +921,24 @@ footer .lapiz{
         display: none;
     }
     nav .avioncito{
-        margin-left: 10rem;
-        margin-bottom: 1.5rem;
+        width: 8rem;
+        height: 4rem;
+        margin-left: 7rem;
+        display: none;
     }
     .menu{
         display:none;
     }
-    .nav{
+    /*.nav{
         display: grid;
-    }
+    }*/
     /*slogan-y-banner*/
+    #banner-slogan .tres-estrellas{
+       display: none;
+    }
     #banner-slogan {
         padding-top: 3.5rem;
-        padding-bottom: 2.5rem;
+        /*padding-bottom: 2.5rem;*/
     }
     #banner-slogan .slider {
         width: 100%;
@@ -955,6 +971,9 @@ footer .lapiz{
     }
     #banner-slogan .raya {
         margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+
     }
     /*productos*/
     #productos{
@@ -976,10 +995,12 @@ footer .lapiz{
         margin-left: 4rem;
         margin-bottom: 10rem;
         position: absolute;
+        display: none;
 
     }
     #productos .avioncito1{
         margin-left: 2rem;
+        display: none;
     }
     #productos h1 {
         color: white;
@@ -1108,8 +1129,8 @@ footer .lapiz{
     }
     #sobre-nosotros .contenedor-sobrenosotros{
         flex-direction: column;
-        align-items: center;
         gap: 2rem;
+        margin-left: 2rem;
 
     }
     #sobre-nosotros .contenedor-sobrenosotros img{
@@ -1131,6 +1152,7 @@ footer .lapiz{
         margin-left: 2.5rem;
         margin-top: 3.125rem;
         color: #ff0000;
+        max-width: 320px;
     }
     #sobre-nosotros .slider-infinito{
         width: 100%;
@@ -1232,6 +1254,14 @@ footer .lapiz{
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         margin-top: 3.125rem;
+    }
+    footer .lapiz {
+        padding-top:0 ;
+        padding-bottom: 5.5rem;
+    }
+    footer .autito{
+        padding-top: 0;
+        padding-bottom: 21rem;
     }
     /*producto individual*/
     .flecha{
