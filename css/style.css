@@ -1157,6 +1157,14 @@ footer .lapiz{
         height: auto;
         
     }
+    footer .autito{
+        padding-bottom: 21rem;
+    }
+    footer .lapiz{
+        position: absolute;
+        margin-left: 5.5rem;
+        padding-bottom: 13.5rem;
+    }
     footer .contenedor-footer{
         padding-top: 12.5rem;
         margin-left: 2.5rem;
@@ -1303,12 +1311,20 @@ footer .lapiz{
         font-size: 1.5rem;
         color: #484848;
         font-family: "Galada", cursive;
-        margin-left: 0.5rem;
+        margin-left: 4%;
     }
-    #producto .descripcion p {
-        max-width: 20rem;
-        margin-left: 0.5rem;
+    #producto .descripcion ul {
+        max-width: 21rem;
+        margin-left: 4%;
         font-size: 0.8rem;
+    }
+    #producto .descripcion .stock{
+        margin-left: 4%;
+        max-width: 21rem;
+    }
+    #producto .descripcion .envios{
+        margin-left: 4%;
+        max-width: 21rem;
     }
     #producto .descripcion .colores-disponibles{
         display: flex;
