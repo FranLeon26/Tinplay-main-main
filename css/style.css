@@ -911,8 +911,7 @@ footer .lapiz{
 
     }
     .nav{
-        padding-left: 0%;
-        margin-right: 4%;
+        margin-right: 5%;
         margin-left: 4%;
     }
     nav{
@@ -1483,14 +1482,196 @@ footer .lapiz{
     }
     
 }
-@media (min-width: 370px)and(max-width: 480px) {
-
-}
-@media (min-width: 480px)and(max-width: 768px) {
-
-}
-@media (min-width: 768px)and(max-width: 960px){
-
+@media (min-width: 768px) and (max-width: 960px){
+    nav .avioncito{
+        margin-left: 3rem;
+    }
+    /*banner*/
+    #banner-slogan .tres-estrellas {
+        margin-left: 1rem;
+    }
+    #banner-slogan .slider{
+        height: 15.125rem;
+    }
+    #banner-slogan .firma-tinplay{
+        margin-left: 34.5rem;
+    }
+    /*productos*/
+    #productos{
+        padding-bottom: 9rem;
+    }
+    #productos h1{margin-left: 2.375rem;
+    }
+    #productos p{
+        margin-left: 2.375rem ;
+        max-width: 700px;
+    }
+    #productos .avion {
+        margin-left: 33rem;
+    }
+    #productos .planeta {
+        margin-left: 40rem;
+    }
+    .contenedor-products{
+        gap: 15px;
+    }
+    .contenedor-products div{
+        height: 10.375rem;
+        width: 14.5rem;
+    }
+    .contenedor-products div .edades {
+        width: 110px;
+        margin-right: 108px;
+    }
+    .contenedor-products div .hover{
+        height: 10.375rem;
+        width: 14.5rem;
+    }
+    .contenedor-products .ver-mas{
+        margin-top: 8.188rem;
+    }
+    .products-segunda-linea{
+        flex-wrap: nowrap;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        gap: 10px;
+    }
+    .products-segunda-linea div {
+        height: 7rem;
+        width: 11rem;
+    }
+    .products-segunda-linea .edades{
+        margin-right: 33px;
+        width: 116px;
+        height: 27px;
+    }
+    .products-segunda-linea .proximamente div .opacidad{
+        height: 7rem;
+        width: 11rem;
+    }
+    .products-segunda-linea .ver-mas{
+        margin-top: 6rem;
+        height: 2.125rem;
+    }
+    .products-segunda-linea .proximamente div .foto-producto {
+        height: 7rem;
+    }
+    /*sobre nosotros*/
+    #sobre-nosotros{
+        height: 55vh;
+    }
+    #sobre-nosotros h1 {
+        margin-left: 3.375rem;
+    }
+    #sobre-nosotros p{
+        margin-left: 3.375rem;
+        max-width: 42rem;
+    }
+    #sobre-nosotros .titulo-slider{
+        margin-left: 3.375rem;   
+    }
+    #sobre-nosotros .slider-infinito{
+        margin-left: 3.375rem; 
+        margin-right: 3.375rem; 
+        width: 85%;
+    }
+    #sobre-nosotros .tres-estrellas-nosotros{
+        margin-left: 21rem;
+    }
+    /*footer*/
+    footer{
+        height: 45vh;
+    }
+    footer .destello{
+        margin-top: 8.5rem ;
+        margin-left: 14rem;
+        width: 35%;
+    }
+    footer .contenedor-footer{
+        margin-left: 3.375rem; 
+        margin-right: 3.375rem;
+    }
+    footer .linea{
+        margin-left: 3.375rem; 
+        margin-right: 3.375rem;
+    }
+    footer .marca-registrada{
+        margin-left: 3.375rem; 
+        margin-right: 3.375rem;
+    }
+    footer .marca-registrada h4{
+        max-width: 18rem;
+        text-align: center;
+    }
+    /*PRODUCTO INDIVIDUAL*/
+    .volver-home{
+        margin-left: 3.375rem; 
+    }
+    #producto .descripcion .titulo-estrellitas .estrellitas {
+        margin-top: 3.5%;
+    }
+    #producto .producto-individual{
+        margin-left: 3.375rem; 
+        width: 20rem;
+        height: 15rem;
+    }
+    #producto .producto-individual img{
+        height: 15rem;
+        width: 20rem;
+    }
+    #producto .vistas-producto{
+        margin-left: 3.375rem;
+        width: 20rem;
+        height: 4rem;
+    }
+    #otros-productos{
+        height: 25vh;
+    }
+    #otros-productos h2{
+        margin-left: 3.375rem;
+    }
+    #otros-productos .otros-productos-contenedor{
+        margin-left: 3.375rem;
+        gap: 10px;
+    }
+    #producto .descripcion h2{
+        margin-left: 1.4rem;
+    }
+    #producto .descripcion ul{
+        max-width: 390px;
+        margin-left: 1.4rem;
+    }
+    #producto .descripcion .stock{
+        max-width: 390px;
+        margin-left: 1.4rem;
+    }
+    #producto .descripcion .envios{
+        max-width: 390px;
+        margin-left: 1.4rem;
+    }
+    #producto .descripcion .colores-disponibles{
+        margin-left: 1.4rem;  
+        width: 17.625rem;
+    }
+    #producto .descripcion .botones-compras{
+        margin-left: 0.4rem;
+        gap: 8px; 
+        width: 6.25rem;
+    }
+    #producto .descripcion .botones-compras .mercadolibre {
+        width: 7.35rem;
+    }
+    #producto .descripcion .botones-compras .tiendanube {
+        width: 7.35rem;
+    }
+    #producto .descripcion .botones-compras .wpp {
+        width: 7.35rem;
+    }
+    #otros-productos .otros-productos-contenedor div{
+        height: 10rem;
+        width: 14.5rem;
+        
+    }
 }
 @media (min-width: 960px)and(max-width: 1024px){
 
