@@ -907,18 +907,15 @@ footer .lapiz{
     }
     /*menu*/
     header{
-        width: 412px;
-        position: fixed;
+        width: 414px;
+
     }
     .nav{
-        margin-left: 4%;
+        padding-left: 0%;
         margin-right: 4%;
+        margin-left: 4%;
     }
     nav{
-        margin-left: 4%;
-        margin-right: 4%;
-        display: flex;
-        justify-content: space-between;
         display: none;
     }
     nav .avioncito{
@@ -935,7 +932,7 @@ footer .lapiz{
     }*/
     /*slogan-y-banner*/
     #banner-slogan .tres-estrellas{
-       display: none;
+        display: none;
     }
     #banner-slogan {
         padding-top: 3.5rem;
@@ -949,7 +946,7 @@ footer .lapiz{
         border-radius: 0rem;
         box-shadow: 0rem 0.625rem 1.563rem rgb(0, 0, 0, 0.5);}
     #banner-slogan .slogan {
-            margin-top: 1.2rem;
+            margin-top: 2rem;
             
         }
     #banner-slogan .slogan .primera-tipografia{
@@ -969,6 +966,7 @@ footer .lapiz{
         margin-left: 15rem ;
         height: 35px;
         width: 80px;
+        margin-top: 2rem;
     }
     #banner-slogan .raya {
         margin-left: 10rem;
@@ -1131,7 +1129,7 @@ footer .lapiz{
     #sobre-nosotros .contenedor-sobrenosotros{
         flex-direction: column;
         gap: 2rem;
-        margin-left: 2rem;
+        margin-left: 5%;
 
     }
     #sobre-nosotros .contenedor-sobrenosotros img{
@@ -1144,7 +1142,7 @@ footer .lapiz{
     
     }
     #sobre-nosotros p {
-        max-width: 18rem;
+        max-width: 21rem;
         margin-left: 1rem;
         font-size: 0.8rem;
     }
@@ -1169,6 +1167,14 @@ footer .lapiz{
         background-image: url(../images/Maskgroup.svg);
         height: auto;
         
+    }
+    footer .autito{
+        padding-bottom: 21rem;
+    }
+    footer .lapiz{
+        position: absolute;
+        margin-left: 5.5rem;
+        padding-bottom: 13.5rem;
     }
     footer .contenedor-footer{
         padding-top: 12.5rem;
@@ -1324,12 +1330,20 @@ footer .lapiz{
         font-size: 1.5rem;
         color: #484848;
         font-family: "Galada", cursive;
-        margin-left: 0.5rem;
+        margin-left: 4%;
     }
-    #producto .descripcion p {
-        max-width: 20rem;
-        margin-left: 0.5rem;
+    #producto .descripcion ul {
+        max-width: 21rem;
+        margin-left: 4%;
         font-size: 0.8rem;
+    }
+    #producto .descripcion .stock{
+        margin-left: 4%;
+        max-width: 21rem;
+    }
+    #producto .descripcion .envios{
+        margin-left: 4%;
+        max-width: 21rem;
     }
     #producto .descripcion .colores-disponibles{
         display: flex;
