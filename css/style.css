@@ -1070,7 +1070,7 @@ footer .lapiz{
         background-color: #686767;
         display: flex;
         align-items: center ;
-        margin-top: 14.188rem;
+        /*margin-top: 14.188rem;*/
         border-top-left-radius: 0rem;
         border-top-right-radius: 0rem;
     }
