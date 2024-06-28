@@ -504,9 +504,19 @@ a{
 }
 
 footer{
-    /* height: 70vh; */
+    height: 70vh; 
     background-image: url(../images/Maskgroup.svg);
     
+}
+footer .contenedor-nombre{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 2rem;
+    margin-left: 9.375rem;
+}
+footer .contenedor-nombre .nombre{
+    font-family:"Inter", sans-serif;
+    font-size: 8px;
 }
 footer .destello{
     height: 25%;
@@ -1269,6 +1279,9 @@ footer .lapiz{
         padding-top: 0;
         padding-bottom: 21rem;
     }
+    footer .contenedor-nombre{
+        margin-left: 2.375rem;
+    }
     /*producto individual*/
     .flecha{
         margin-top: 0.5rem;
@@ -1580,7 +1593,7 @@ footer .lapiz{
     }
     /*footer*/
     footer{
-        height: 45vh;
+        height: 50vh;
     }
     footer .destello{
         margin-top: 8.5rem ;
@@ -1602,6 +1615,9 @@ footer .lapiz{
     footer .marca-registrada h4{
         max-width: 18rem;
         text-align: center;
+    }
+    footer .contenedor-nombre {
+        margin-left: 3.375rem;
     }
     /*PRODUCTO INDIVIDUAL*/
     .volver-home{
